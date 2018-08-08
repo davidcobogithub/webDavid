@@ -1,0 +1,115 @@
+@import
+	url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	max-width: 700px;
+}
+
+.principal {
+	
+	width: 1300px;
+	height: 250px;
+	background-color: #00897B;
+}
+
+.imagen {
+	float: left;
+	margin: auto;
+	margin-left: 40px;
+	margin-top: 15px;
+	width: 300px;
+	height: 285px;
+}
+
+.nombre {
+	float: right;
+	margin: auto;
+	margin-top: 15px;
+	width: 950px;
+	height: 100px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+.detalles {
+	margin: auto;
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.historia {
+	margin: auto;
+	width: 950px;
+	height: 50px;
+	float: right;
+	font-family: 'Oswald', sans-serif;
+}
+
+.cuerpo {
+	
+	width: 1300px;
+	height: 1030px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.panelCentral {
+
+	width: 1320px;
+	height: 500px;
+}
+
+.BottomMenu {
+	margin-left: 50px;
+}
+
+.fontEdit {
+	color: #00897B;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+.BottomMenu a {
+	
+	background-color: #ffffff;
+	border: 1px solid #9b9b9b;
+	color: #000000;
+	display: block;
+	font-size: 18px;
+	float: left;
+	text-align: left;
+	text-decoration: none;
+	padding: 2% 0 2% 71px;
+	margin: 1%;
+	width: 20%;
+	height: 70px;
+}
+
+.others {
+	margin-left: 12px;
+}
+
+.others a {
+	background-color: #ffffff;
+	border: 1px solid #9b9b9b;
+	color: #000000;
+	display: block;
+	font-size: 18px;
+	text-align: left;
+	text-decoration: none;
+	padding: 3% 0 1% 70px;
+	width: 600px;
+	height: 92px;
+	margin-top: 13px;
+}
+
+.boton:hover {
+    background-color: #1dbfe2;
+}
+
+hr {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
